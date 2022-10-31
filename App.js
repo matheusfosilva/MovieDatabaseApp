@@ -50,8 +50,6 @@ export default function App() {
 
                     <Text numberOfLines={4} style={styles.overview} >{val.overview}</Text> 
 
-                    <Text>Clique para assistir o filme </Text>
-
                   </Card>
 
               )
