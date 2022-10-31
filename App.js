@@ -52,6 +52,8 @@ export default function App() {
 
                     <Text>Clique para assistir o filme </Text>
 
+                    <Text>Saiba mais</Text>
+
                   </Card>
 
               )
