@@ -48,9 +48,8 @@ export default function App() {
 
                     <Image style={styles.Image} source={{ uri: imageUri + val.backdrop_path }} />
 
-                    <Text numberOfLines={6} style={styles.overview} >Clique para saber mais</Text>
+                    <Text numberOfLines={5} style={styles.overview} >{val.overview}</Text> 
 
-                    <Text numberOfLines={4} style={styles.overview} >{val.overview}</Text> 
 
                   </Card>
 
